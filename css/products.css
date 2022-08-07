@@ -7,59 +7,41 @@ body {
   color: rgb(68, 68, 68);
 }
 
-header {
-  position: static;
-}
-
-main {
-  zoom: 80%;
-}
-
-main ul {
-  width: 1200px;
-  margin: 0 auto 48px auto;
-  padding: 20px 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px 20px;
-}
-
-main li {
-  display: flex;
+#table-container {
   background-color: #fff;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  overflow: hidden;
+  text-align: center;
+  position: relative;
+  top: 120px;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+  border-radius: 10px;
 }
 
-
-main li img {
-  width: 300px;
-  height: 280px;
-  object-fit: cover;
+th{
+    background-color: rgb(115, 108, 108);
+    color: #fff;
+    font-size: 20px;
 }
 
-.item-content {
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+table,
+tr,th,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
 }
 
-.item-content h2 {
-  margin-top: 0;
+td, th{
+    padding: 18px 150px;
+    transition: all 0.3s;
+    font-size: 18px;
 }
 
-.actions {
-  text-align: right;
+tr td:first-child, tr th:first-child{
+  padding: 8px 20px;
 }
 
-.actions a {
-  padding: 8px 10px;
-  color: rgb(68, 68, 68);
-  border-radius: 5px;
-}
-
-.actions a:hover {
-  background-color: rgb(208, 202, 202);
+td:hover{
+  background-color: rgb(182, 177, 177);
+  color: rgb(32, 32, 32);
 }

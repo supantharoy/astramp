@@ -1,0 +1,67 @@
+body {
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: rgb(68, 68, 68);
+  }
+  
+  header {
+    position: static;
+  }
+  
+  main {
+    zoom: 80%;
+  }
+  
+  main ul {
+    width: 1200px;
+    margin: 0 auto 48px auto;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+  }
+  
+  main li {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  
+  main li img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+  }
+  
+  .item-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .item-content h2 {
+    margin-top: 0;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .actions a {
+    padding: 8px 10px;
+    color: rgb(68, 68, 68);
+    border-radius: 5px;
+  }
+  
+  .actions a:hover {
+    background-color: rgb(208, 202, 202);
+  }
+  
+  
