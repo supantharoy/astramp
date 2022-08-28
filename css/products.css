@@ -45,3 +45,19 @@ td:hover{
   background-color: rgb(182, 177, 177);
   color: rgb(32, 32, 32);
 }
+
+.accordion{
+  position: relative;
+  top: 200px;
+  text-align: center;
+  margin: 0 200px;
+}
+
+.card-body ul li a{
+  display: block;
+  border: rgb(78, 77, 77) solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px 0;
+}
